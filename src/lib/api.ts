@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//   baseURL: '/api',
+// });
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://dhara-rag-2.onrender.com/api',
 });
 
 // Interceptor to add JWT token to every request
