@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: `${process.env.BACKEND_URL || 'http://127.0.0.1:4200'}/api/:path*`,
+        destination: `${process.env.BACKEND_URL || 'https://dhara-rag-2.onrender.com'}/api/:path*`,
       },
     ];
   },
